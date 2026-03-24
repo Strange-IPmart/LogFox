@@ -1,3 +1,6 @@
 package com.f0x1d.logfox.presentation
 
-data object MainState
+internal data class MainState(
+    val askedNotificationsPermission: Boolean,
+    val openCrashesOnStartup: Boolean,
+)

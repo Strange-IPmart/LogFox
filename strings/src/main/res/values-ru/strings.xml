@@ -104,6 +104,9 @@
     <string name="fallback_to_default_terminal_desc">Когда выбранный логгер недоступен. Иначе LogFox будет бесконечно пытаться его использовать</string>
     <string name="including">Включая</string>
     <string name="excluding">Исключая</string>
+    <string name="enabled">Включён</string>
+    <string name="disabled">Отключён</string>
+    <string name="create_filter">Создать фильтр</string>
     <string name="package_name">Имя пакета</string>
     <string name="apps">Приложения</string>
     <string name="are_you_sure">Вы уверены?</string>
@@ -121,8 +124,10 @@
     <string name="date_time">Дата, время</string>
     <string name="date_format">Формат даты</string>
     <string name="time_format">Формат времени</string>
-    <string name="archives">Архивы</string>
+    <string name="exports">Экспорт</string>
+    <string name="export_logs_as_txt">Export logs as .txt instead of .log</string>
     <string name="include_device_information_in_archives">Добавлять информацию об устройстве при экспорте записей и сбоев</string>
+    <string name="include_app_information_in_exports">Добавлять информацию о приложении при экспорте сбоев</string>
     <string name="to_recording">В запись</string>
     <string name="no_logs">Сейчас логов нет</string>
     <string name="waiting_for_logs">Ждём логи</string>
@@ -131,6 +136,7 @@
     <string name="no_recordings">Сейчас записей нет</string>
     <string name="no_filters">Сейчас фильтров нет</string>
     <string name="show_logs_from_app_launch">Показывать только логи, появившиеся с момента запуска приложения</string>
+    <string name="stop_logging_on_back_exit">Останавливать логирование при выходе по кнопке назад</string>
     <string name="save_all_logs">Сохранить все логи</string>
     <string name="saving_logs">Сохраняем логи, это может занять много времени…</string>
     <string name="error_saving_logs">Ошибка при сохранении логов</string>
@@ -141,8 +147,6 @@
     <string name="session_cache_lines_count">Количество строк в кэше сессии</string>
     <string name="session_cache_size_warning">Кэш сессии хранится в оперативной памяти, так что не переполните её выбранным значением</string>
     <string name="export_logs_in_original_format">Экспортировать логи в исходном виде</string>
-    <string name="support_chat">Чат поддержки</string>
-    <string name="support_chat_desc">Используйте для быстрого решения проблем</string>
     <string name="type_crashes">%s сбои</string>
     <string name="crashes_of">%s сбои %s</string>
     <string name="per_app_notifications_settings">Настройки персонализированных уведомлений для приложений доступны в деталях сбоя и системных настройках LogFox</string>
@@ -158,4 +162,5 @@
     <string name="add_to_blacklist">Добавить в черный список</string>
     <string name="remove_from_blacklist">Убрать из черного списка</string>
     <string name="share_logs">Поделиться логами</string>
+    <string name="case_sensitive">С учётом регистра</string>
 </resources>
